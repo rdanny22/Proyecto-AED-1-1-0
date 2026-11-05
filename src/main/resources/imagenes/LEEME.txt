@@ -1,0 +1,12 @@
+Emblema del Colegio Antonio Soldano
+
+Incluido: emblema-colegio.png, imagen proporcionada por el usuario/colegio.
+Se conserva el archivo original, de 1080 x 1079 píxeles, con transparencia.
+
+El login, la ventana principal y los reportes lo cargan automáticamente.
+Maven incluye esta carpeta en el JAR; no se requieren rutas externas.
+
+Para reemplazarlo: conserve el nombre exacto emblema-colegio.png.
+Límites de carga: 8 MiB y 4096 píxeles por dimensión.
+En Eclipse: F5, reconstruir y reiniciar. Para distribuir: mvn clean verify.
+Si falta la imagen o es inválida, los encabezados de texto siguen disponibles.
